@@ -1,5 +1,9 @@
+*{
+  font-family: inter;
+}
 .App {
   text-align: center;
+
 }
 
 .App-logo {
