@@ -1,0 +1,4 @@
+Primary: #050c9c
+Secondary: #3572ef
+Tertiary: #3abef9
+fourth: #A7E6FF
