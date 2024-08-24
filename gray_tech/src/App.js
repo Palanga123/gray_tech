@@ -1,6 +1,6 @@
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import List from './components/main/testimonials/testimonials';
-import Uq from './components/main/header/header2';
+import Header from './components/main/header/header';
 import Content from './components/main/main/content';
 import Hero from './components/main/main/intro';
 import Contact from './components/main/contact/form'
@@ -13,7 +13,7 @@ function App()
 
         <>
         
-            <Uq/>
+            <Header/>
             <Hero/> 
             <Content/>
             <List/> 
