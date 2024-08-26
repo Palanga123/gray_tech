@@ -31,7 +31,7 @@ function Header(){
                     <div className="w-11/12 md:w-4/5 m-auto bg-transparent flex justify-between h-14 items-center">
                             <div>
                                 <div className="text-justify">
-                                    <p className="font-semibold text-[14px] md:text-2xl text-[#3572ef]">Zamola <span className="text-gray-600">Logistics Ltd.</span></p>
+                                    <p className="font-semibold text-[14px] sm:text-lg lg:text-2xl text-[#3572ef]">Zamola <span className="text-gray-600">Logistics Ltd.</span></p>
                                     <p className="text-[8px] md:text-[10px]">Clearing & Forwarding</p>
                                 </div>
                             </div>    
