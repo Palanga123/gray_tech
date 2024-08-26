@@ -17,7 +17,7 @@ const Header = () => {
     return(
         <>
             <header id="text" className="w-full fixed shadow-md bg-white">
-                <div className="hidden md:block w-full bg-[#3572ef]">
+                <div className="hidden md:block w-full bg-[#1352cf]">
                     <div className="w-3/5 md:w-4/5 m-auto bg-transparent">
                         
                         <ul className="justify-between md:justify-end flex text-white font-medium items-center">
@@ -34,11 +34,11 @@ const Header = () => {
                     <div className="w-11/12 md:w-4/5 m-auto bg-transparent flex justify-between h-14 items-center">
                             <div>
                                 <div className="text-justify">
-                                    <p className="font-semibold text-[14px] sm:text-lg lg:text-2xl text-[#3572ef]">Zamola <span className="text-gray-600">Logistics Ltd.</span></p>
+                                    <p className="font-semibold text-[14px] sm:text-lg lg:text-2xl text-[#1352cf]">Zamola <span className="text-gray-600">Logistics Ltd.</span></p>
                                     <p className="text-[8px] md:text-[10px]">Clearing & Forwarding</p>
                                 </div>
                             </div>    
-                            <div className="hidden md:block justify-evenly text-[#3572ef] ml-3 font-semibold text-[13px]">
+                            <div className="hidden md:block justify-evenly text-[#1352cf] ml-3 font-semibold text-[13px]">
                                 <button className="px-4 h-full underline underline-offset-8">HOME </button>
                                 <button className="px-4 h-full hover:underline underline-offset-8">ABOUT </button>                       
                                 <button className="px-4 h-full hover:underline underline-offset-8">SERVICES</button>
@@ -52,12 +52,12 @@ const Header = () => {
                     </div>
                 </div>
                 {showContent ? 
-                    <div className="duration-500 block shadow w-full bg-white rounded-b-md p-4 text-[#3572ef] font-semibold text-[13px]">
+                    <div className="duration-500 block shadow w-full bg-white rounded-b-md p-4 text-[#1352cf] font-semibold text-[13px]">
                         <button className="text-left block px-4 py-3 w-full h-full">HOME </button>
                         <button className="text-left block px-4 py-3 w-full h-full">ABOUT </button>                       
                         <button className="text-left block px-4 py-3 w-full h-full">SERVICES</button>
                         <button className="text-left block px-4 py-3 w-full h-full">CONTACT US</button>
-                        
+
                     </div>
                     :
                     ""
