@@ -77,6 +77,11 @@ const Content = () => {
                     </div>
                 </div>
                 <div className="md:flex items-center mb-14">
+                    <div className="hidden md:block w-full md:w-1/2 py-4 md:px-6">
+                        <p className="font-bold text-[20px] md:text-[24px] pb-2 text-[#3572ef]">E-Commerce</p>
+                        <p className="text-[13px] w-4/5">Large space and infrastructure for catering to retail and e-commerce storage & distribution</p>
+                        <button className="py-2 px-4 rounded-md text-[14px] text-white bg-[#3572ef] font-semibold mt-4">Join Us</button>
+                    </div>
                     <div className="w-full md:w-1/2 ">
                         <img
                             src={Truck}
@@ -84,7 +89,7 @@ const Content = () => {
                             className="rounded-md h-80"
                         />
                     </div>
-                    <div className="w-full md:w-1/2 py-4 md:px-6">
+                    <div className="md:hidden w-full md:w-1/2 py-4 md:px-6">
                         <p className="font-bold text-[20px] md:text-[24px] pb-2 text-[#3572ef]">E-Commerce</p>
                         <p className="text-[13px] w-4/5">Large space and infrastructure for catering to retail and e-commerce storage & distribution</p>
                         <button className="py-2 px-4 rounded-md text-[14px] text-white bg-[#3572ef] font-semibold mt-4">Join Us</button>
