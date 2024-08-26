@@ -17,7 +17,7 @@ const Footer = () => {
                             <p className="text-2xl font-semibold">Contact Us</p>
                             <p>Phone: <a href="tel:0765735764">+260 734 123 123</a></p>
                             <p>Email: <a href="mailto:geocademyedu@gmail.com">zamola@gmail.com</a></p><br/>
-                            <div class="flex h-10 w-full text-gray-300 mb-2 justify-evenly">
+                            <div class="flex h-10 w-full mb-2 justify-evenly">
                                 <button className="p-4 text-[26px] rounded-md text-center" onClick = "location.href='https://www.facebook.com/profile.php?id=100092004857675'"><FaFacebook/></button> 
                                 <button className="p-4 text-[26px] rounded-md text-center" onClick = "location.href='https://twitter.com/Geocademy_'"><FaTwitter/></button> 
                                 <button className="p-4 text-[26px] rounded-md text-center" onClick = "location.href='https://instagram.com/geocademyedu'"><FaInstagram/></button> 
