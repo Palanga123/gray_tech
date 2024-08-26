@@ -44,7 +44,7 @@ function Contact()
                                 <p>Message</p>
                                 <textarea resize="none" placeholder="Write your message here..." className="w-full md:w-[300px] h-32 py-1 px-4 border border-gray-400"></textarea>
                             </div>
-                            <button className="py-3 w-full md:w-[300px] rounded-md bg-[#3abef9] hover:bg-sky-500 text-white">Send</button>
+                            <button className="py-3 w-full md:w-[300px] rounded-md bg-[#3572ef] hover:bg-sky-500 text-white">Send</button>
                         </form>
                     </div>
                 </div>

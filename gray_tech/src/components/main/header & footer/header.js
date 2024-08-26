@@ -1,19 +1,22 @@
-import { FaBars, FaFacebook, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaBars, FaFacebook, FaLinkedin, FaInstagram, FaTwitter} from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
+import { useState } from "react";
 
-function Header(){
+const Header = () => {
 
-    // const [showContent, setShowContent] = useState(false);
+    const [showContent, setShowContent] = useState(false);
 
-    // const toggleContent = () => {
-    //     // setShowContent(!showContent);
-    //     document.getElementById('content').classList.toggle("hidden");
-    // };
+    const toggleContent = () => {
+        return setShowContent(!showContent);
+    };
 
+    let bars = <FaBars/>;
+    let x = <FaX/>
     
 
     return(
         <>
-            <header id="text" className="w-full fixed shadow-md">
+            <header id="text" className="w-full fixed shadow-md bg-white">
                 <div className="w-full bg-[#3572ef]">
                     <div className="w-3/5 md:w-4/5 m-auto bg-transparent">
                         
@@ -42,12 +45,22 @@ function Header(){
                                 <button className="px-4 h-full hover:underline underline-offset-8">CONTACT US</button>
                             </div>
                             <div className="block md:hidden">
-                                <button className="p-3 border border-gray-300 rounded">
-                                    <FaBars/>
+                                <button className="p-3 border border-gray-500 rounded text-gray-500" onClick={() => toggleContent()}>
+                                    {!showContent ? bars : x}
                                 </button>
                             </div>
                     </div>
                 </div>
+                {showContent ? 
+                    <div className="block shadow w-full bg-white rounded-b-md p-4 text-[#3572ef] font-semibold text-[13px]">
+                        <button className="text-left block px-4 py-3 w-full h-full">HOME </button>
+                        <button className="text-left block px-4 py-3 w-full h-full">ABOUT </button>                       
+                        <button className="text-left block px-4 py-3 w-full h-full">SERVICES</button>
+                        <button className="text-left block px-4 py-3 w-full h-full">CONTACT US</button>
+                    </div>
+                    :
+                    ""
+                }
                 
             </header>
         </>
