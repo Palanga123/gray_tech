@@ -52,7 +52,7 @@ const Header = () => {
                     </div>
                 </div>
                 {showContent ? 
-                    <div className="block shadow w-full bg-white rounded-b-md p-4 text-[#3572ef] font-semibold text-[13px]">
+                    <div className="duration-500 block shadow w-full bg-white rounded-b-md p-4 text-[#3572ef] font-semibold text-[13px]">
                         <button className="text-left block px-4 py-3 w-full h-full">HOME </button>
                         <button className="text-left block px-4 py-3 w-full h-full">ABOUT </button>                       
                         <button className="text-left block px-4 py-3 w-full h-full">SERVICES</button>
