@@ -17,7 +17,7 @@ const Header = () => {
     return(
         <>
             <header id="text" className="w-full fixed shadow-md bg-white">
-                <div className="w-full bg-[#3572ef]">
+                <div className="hidden md:block w-full bg-[#3572ef]">
                     <div className="w-3/5 md:w-4/5 m-auto bg-transparent">
                         
                         <ul className="justify-between md:justify-end flex text-white font-medium items-center">
@@ -57,6 +57,7 @@ const Header = () => {
                         <button className="text-left block px-4 py-3 w-full h-full">ABOUT </button>                       
                         <button className="text-left block px-4 py-3 w-full h-full">SERVICES</button>
                         <button className="text-left block px-4 py-3 w-full h-full">CONTACT US</button>
+                        
                     </div>
                     :
                     ""
