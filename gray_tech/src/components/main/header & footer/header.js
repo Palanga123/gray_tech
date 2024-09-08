@@ -13,6 +13,17 @@ const Header = () => {
     let bars = <FaBars/>
     let x = <FaX/>
     
+    const socials = [
+        <FaFacebook/>, <FaLinkedin/>, <FaInstagram/>, <FaTwitter/>,
+    ]
+
+    const links = [
+        "Home", "About", "Services", "Contact Us"
+    ]
+
+    const socialItems = socials.map(socials => <li className="px-2 md:px-4 py-2">{socials}</li>)
+    const linkItems = links.map(links => <button className="px-4 h-full hover:underline underline-offset-8 uppercase">{links}</button>)
+    const mobileLinkItems = links.map(links => <button className="text-left block px-4 py-3 w-full h-full uppercase">{links}</button>)
 
     return(
         <>
@@ -21,12 +32,8 @@ const Header = () => {
                     <div className="w-3/5 md:w-4/5 m-auto bg-transparent">
                         
                         <ul className="justify-between md:justify-end flex text-white font-medium items-center">
-                            <p className='hidden md:block px-4 text-[14px]'>Socials</p>
-                            
-                            <li className="px-2 md:px-4 py-2"><FaFacebook/></li>
-                            <li className="px-2 md:px-4 py-2"><FaLinkedin/></li>
-                            <li className="px-2 md:px-4 py-2"><FaInstagram/></li>
-                            <li className="px-2 md:px-4 py-2"><FaTwitter/></li>
+                            <p className='hidden md:block px-4 text-[14px]'>Socials</p>                            
+                            {socialItems}
                         </ul>
                     </div>
                 </div>
@@ -39,10 +46,7 @@ const Header = () => {
                                 </div>
                             </div>    
                             <div className="hidden md:block justify-evenly text-[#1352cf] ml-3 font-semibold text-[13px]">
-                                <button className="px-4 h-full underline underline-offset-8">HOME </button>
-                                <button className="px-4 h-full hover:underline underline-offset-8">ABOUT </button>                       
-                                <button className="px-4 h-full hover:underline underline-offset-8">SERVICES</button>
-                                <button className="px-4 h-full hover:underline underline-offset-8">CONTACT US</button>
+                                {linkItems}
                             </div>
                             <div className="block md:hidden">
                                 <button className="p-3 border border-gray-500 rounded text-gray-500" onClick={() => toggleContent()}>
@@ -53,11 +57,7 @@ const Header = () => {
                 </div>
                 {showContent ? 
                     <div className="block shadow w-full bg-white rounded-b-md p-4 text-[#1352cf] font-semibold text-[13px]">
-                        <button className="text-left block px-4 py-3 w-full h-full">HOME </button>
-                        <button className="text-left block px-4 py-3 w-full h-full">ABOUT </button>                       
-                        <button className="text-left block px-4 py-3 w-full h-full">SERVICES</button>
-                        <button className="text-left block px-4 py-3 w-full h-full">CONTACT US</button>
-
+                       {mobileLinkItems}
                     </div>
                     :
                     ""
