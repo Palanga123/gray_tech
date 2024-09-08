@@ -1,5 +1,5 @@
 import mike_banda from "../../images/download.jpeg";
-import Testimonials from "./testimonial_data.js";
+import Testimonials from "./testimonial_data.jsx";
 
 function List()
 {

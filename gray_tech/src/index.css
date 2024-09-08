@@ -1,27 +1,14 @@
-body {
-  margin: 0;
-  font-family: montserrat;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: white;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-
-#main {
-  background: url("./components/images/truck.jpeg") center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#content{
-  display: none;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  font-family: "Montserrat";
+}
+
+#main{
+  background-image: url("/src/components/images/truck.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
