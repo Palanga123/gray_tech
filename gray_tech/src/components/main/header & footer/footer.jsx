@@ -25,7 +25,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div><br/><br/>
-                    <p className="text-center font-semibold">Zamola Logistics Limitted <br/>2024 All Rights Reserved</p>
+                    <p className="text-center font-semibold">Zamola Logistics Limitted <br/>&copy; 2024 All Rights Reserved</p>
             </footer>
         </>
     );
