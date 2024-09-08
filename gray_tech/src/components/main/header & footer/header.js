@@ -10,7 +10,7 @@ const Header = () => {
         return setShowContent(!showContent);
     };
 
-    let bars = <FaBars/>;
+    let bars = <FaBars/>
     let x = <FaX/>
     
 
@@ -52,7 +52,7 @@ const Header = () => {
                     </div>
                 </div>
                 {showContent ? 
-                    <div className="duration-500 block shadow w-full bg-white rounded-b-md p-4 text-[#1352cf] font-semibold text-[13px]">
+                    <div className="block shadow w-full bg-white rounded-b-md p-4 text-[#1352cf] font-semibold text-[13px]">
                         <button className="text-left block px-4 py-3 w-full h-full">HOME </button>
                         <button className="text-left block px-4 py-3 w-full h-full">ABOUT </button>                       
                         <button className="text-left block px-4 py-3 w-full h-full">SERVICES</button>

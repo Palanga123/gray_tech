@@ -2,7 +2,7 @@ function Hero()
 {
     return (
         <>
-            <div className="h-20 md:h-24 w-full"></div>
+            <div className="h-16 md:h-24 w-full"></div>
             <main id="main" className="" > 
                 <div style={{ backgroundColor: 'rgba(0,0,0,0.3)' }} >
 
@@ -15,7 +15,6 @@ function Hero()
                             maiores accusamus, quas velit qui
                             incidunt magni, quisquam ipsum, ea temporibus!</p>
                         <br />
-                        {/* <button className="text-sm md:text-base text-white rounded-full bg-sky-500 hover:bg-sky-600 py-2 px-4 md:px-6">Join Us</button> */}
                     </div>
 
                 </div>
