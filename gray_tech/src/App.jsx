@@ -1,4 +1,4 @@
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import List from './components/main/testimonials/testimonials.jsx';
 import Header from './components/main/header & footer/header.jsx';
 import Footer from './components/main/header & footer/footer.jsx';
@@ -13,14 +13,16 @@ function App()
     return (        
 
         <>
-        
-            <Header/>
-            <Hero/> 
-            <Content/>
-            <List/> 
-            <Contact/>
-            <Footer/>
-
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Header/>}/>
+                </Routes>
+                <Hero/> 
+                <Content/>
+                <List/> 
+                <Contact/>
+                <Footer/>
+            </BrowserRouter>
         </>
 
     );
