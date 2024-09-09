@@ -33,6 +33,7 @@ const Header = () => {
             <li className="px-2 md:px-4 py-2">{social.name}</li>
         </NavLink>)
 
+
     const linkItems = links.map(link => 
         <NavLink key={link.id} to={link.href}>
             <button className="px-4 h-full hover:underline underline-offset-8 uppercase">{link.name}</button>
@@ -58,10 +59,12 @@ const Header = () => {
                 <div className="w-full py-2 bg-white">
                     <div className="w-11/12 md:w-4/5 m-auto bg-transparent flex justify-between h-14 items-center">
                             <div>
-                                <div className="text-justify">
-                                    <p className="font-semibold text-[14px] sm:text-lg lg:text-2xl text-[#1352cf]">Zamola <span className="text-gray-600">Logistics Ltd.</span></p>
-                                    <p className="text-[8px] md:text-[10px]">Clearing & Forwarding</p>
-                                </div>
+                               <NavLink to="/">
+                                    <div className="text-justify">
+                                        <p className="font-semibold text-[14px] sm:text-lg lg:text-2xl text-[#1352cf]">Zamola <span className="text-gray-600">Logistics Ltd.</span></p>
+                                        <p className="text-[8px] md:text-[10px]">Clearing & Forwarding</p>
+                                    </div>
+                               </NavLink>
                             </div>    
                             <div className="hidden md:block justify-evenly text-[#1352cf] ml-3 font-semibold text-[13px]">
                                 {linkItems}

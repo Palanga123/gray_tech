@@ -4,11 +4,11 @@ const Footer = () => {
 
     return(
         <>
-            <footer className="bottom-0 bg-[#1352cf] p-4 md:p-8 text-white w-full">
+            <footer className="bottom-0  p-4 md:p-8 bg-gray-300 text-black w-full">
                 <div className="w-11/12 md:w-4/5 m-auto grid md:grid-cols-2 gap-3">
                         <div className="w-full md:w-1/2">
                             <p>You do not need to worry about clearing your cargo. <br/> We are reliable.</p><br/><br/>
-                            <p><i>"Zamola. Here for you"</i></p><br/>
+                            <p><i>Zamola. Here for you</i></p><br/>
                             
                             
                             
