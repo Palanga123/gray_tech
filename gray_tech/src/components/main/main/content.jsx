@@ -1,9 +1,13 @@
 import { FaArrowCircleRight } from "react-icons/fa";
 import Typing from '../../images/typing.jpg';
 import Truck from '../../images/truck.jpeg';
-const Content = () => {
+import Hero from "./intro";
+import List from "../testimonials/testimonials";
+const Main = () => {
     return (
         <>
+            {/* hero section */}
+            <Hero/>
             <section className="mt-16 w-11/12 md:w-4/5 m-auto py-10">
                 <div className="md:h-64 w-full bg-gray-50 border border-gray-200 rounded md:flex items-center md:justify-between overflow-hidden">
                     <div className="w-full md:w-[40%] h-full">
@@ -112,8 +116,11 @@ const Content = () => {
                 </div>
 
             </section>
+
+            {/* Testimonial page */}
+            <List/>
         </>
     );
 }
 
-export default Content;
+export default Main;

@@ -1,10 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import List from './components/main/testimonials/testimonials.jsx';
 import Header from './components/main/header & footer/header.jsx';
 import Footer from './components/main/header & footer/footer.jsx';
-import Content from './components/main/main/content.jsx';
-import Hero from './components/main/main/intro.jsx';
-import Contact from './components/main/contact/form.jsx'
+import Main from './components/main/main/content.jsx';
+import Contact from './components/main/contact/form.jsx';
+import About from './components/main/about/about.jsx';
 
 
 
@@ -14,13 +13,16 @@ function App()
 
         <>
             <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Header/>}/>
-                </Routes>
-                <Hero/> 
-                <Content/>
-                <List/> 
-                <Contact/>
+                <Header/>
+
+                <div className="w-full">
+                    <Routes>
+                        <Route path="/" element={<Main/>}/>
+                        <Route path="/contact" element={<Contact/>}/>
+                        <Route path="/about" element={<About/>}/>
+                    </Routes>
+                </div>
+ 
                 <Footer/>
             </BrowserRouter>
         </>

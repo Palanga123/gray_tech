@@ -1,6 +1,7 @@
 import { FaBars, FaFacebook, FaLinkedin, FaInstagram, FaTwitter} from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
 
@@ -14,16 +15,33 @@ const Header = () => {
     let x = <FaX/>
     
     const socials = [
-        <FaFacebook/>, <FaLinkedin/>, <FaInstagram/>, <FaTwitter/>,
+        {id:1, name:<FaFacebook/>, href:"#"}, 
+        {id:2, name:<FaLinkedin/>, href:"#"}, 
+        {id:4, name:<FaInstagram/>, href:"#"}, 
+        {id:4, name:<FaTwitter/>, href:"#"},
     ]
 
     const links = [
-        "Home", "About", "Services", "Contact Us"
+        {id:1, name:"Home", href:"/"}, 
+        {id:2, name:"About", href:"/about"}, 
+        {id:3, name:"Services", href:"/services"}, 
+        {id:4, name:"Contact Us", href:"/contact"}
     ]
 
-    const socialItems = socials.map(socials => <li className="px-2 md:px-4 py-2">{socials}</li>)
-    const linkItems = links.map(links => <button className="px-4 h-full hover:underline underline-offset-8 uppercase">{links}</button>)
-    const mobileLinkItems = links.map(links => <button className="text-left block px-4 py-3 w-full h-full uppercase">{links}</button>)
+    const socialItems = socials.map(social =>   
+        <NavLink key={social.id} to={social.href}>
+            <li className="px-2 md:px-4 py-2">{social.name}</li>
+        </NavLink>)
+
+    const linkItems = links.map(link => 
+        <NavLink key={link.id} to={link.href}>
+            <button className="px-4 h-full hover:underline underline-offset-8 uppercase">{link.name}</button>
+        </NavLink>)
+
+    const mobileLinkItems = links.map(link => 
+        <NavLink key={link.id} to={link.href}>
+            <button className="text-left block px-4 py-3 w-full h-full uppercase">{link.name}</button>
+        </NavLink>)
 
     return(
         <>
