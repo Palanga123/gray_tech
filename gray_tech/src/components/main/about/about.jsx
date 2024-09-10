@@ -26,8 +26,9 @@ const About = () => {
                     <div className="w-full mx-auto py-16">
                         <p className="font-bold text-gray-800 mb-4 text-xl md:text-2xl">Our culture</p>
                         <p className="text-gray-800 mb-4 block md:w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo labore natus iste vel.</p>
-                        <div className="md:flex justify-between items-center">
-                            <div className="hidden w-full">
+                        <div className="flex flex-col md:flex-row-reverse justify-between items-center">
+                            
+                            <div className="w-full md:w-1/2 py-3">
                                 <img src={img} alt="culture" className='rounded' />
                             </div>
                             <div className="w-full md:w-1/2 m-auto">
@@ -39,18 +40,15 @@ const About = () => {
                                     <Culture icon={<FaChartSimple />} title="Growth & Development"/>
                                 </div>
                             </div>
-                            <div className="hidden md:block w-full md:w-1/2">
-                                <img src={img} alt="culture" className='rounded' />
-                            </div>
                         </div>
                     </div>
                     <div className="w-full mx-auto py-16">
                         <p className="font-bold text-gray-800 mb-4 text-xl md:text-2xl">Our Values</p>
                         <p className="text-gray-800 mb-4 block md:w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo labore natus iste vel.</p>
 
-                        <div className="md:flex justify-between items-center">
-                            <div className="w-full md:w-1/2">
-                                <img src={img} alt="culture" className='rounded hidden md:block' />
+                        <div className="flex flex-col md:flex-row justify-between items-center">
+                            <div className="w-full md:w-1/2 py-3">
+                                <img src={img} alt="culture" className='rounded md:block' />
                             </div>
                             <div className="w-full md:w-1/2 m-auto">
 
