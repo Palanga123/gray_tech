@@ -8,8 +8,8 @@ const Footer = () => {
             <footer className="bottom-0 text-black w-full mt-auto">                
                 <div className="w-11/12 md:w-4/5 m-auto">
                     {/* <hr className="border-gray-400"/> */}
-                    <div className="w-full items-center flex justify-between py-6">
-                        <div className="w-full md:w-1/2">
+                    <div className="w-full items-center flex md:flex-row flex-col-reverse justify-between py-6">
+                        <div className="w-full md:w-1/2 m-auto">
 
                             <div>
                                 <NavLink to="/">
@@ -27,8 +27,8 @@ const Footer = () => {
                                 <button className="h-10 w-10 border rounded-full mx-2 bg-gray-300" onClick="location.href='https://instagram.com/geocademyedu'"><FaEnvelope className="m-auto" /></button>
                             </div>
                         </div>
-                        <div className="w-full md:w-1/2 text-sm flex">
-                            <div className="w-2/3"></div>
+                        <div className="w-full md:w-1/2 text-sm md:flex pb-10 md:pb-0">
+                            <div className="hidden md:block w-2/3"></div>
                                 <div className="w-1/3">
                                 <p className="font-bold text-[16px] py-2">Useful links</p>
                                 <NavLink to="/"><p className="py-2">Home</p></NavLink>

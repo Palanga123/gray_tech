@@ -17,7 +17,7 @@ const About = () => {
                         <p className="text-center"></p>
                         {/* <button className="py-2 px-4 rounded bg-[#1352cf] text-white font-semibold">Join Us</button> */}
                     </div>
-                    <div className="w-full mx-auto py-16">
+                    <div className="w-full mx-auto py-16 px-2 md:px-4">
                         <div>
                             <p className="font-bold text-gray-800 py-2 text-xl md:text-2xl">Who are we?</p>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nesciunt magni nihil maiores odit amet non quibusdam ducimus magnam optio, sit placeat, quidem itaque nulla numquam autem officiis excepturi eius dolores. Velit eligendi eveniet temporibus deleniti facere! Delectus quos recusandae enim laudantium natus ea. Optio nisi quas voluptates officiis est! Temporibus tenetur perspiciatis at autem harum molestias facilis qui accusantium.</p>
@@ -30,9 +30,9 @@ const About = () => {
                             <div className="hidden w-full">
                                 <img src={img} alt="culture" className='rounded' />
                             </div>
-                            <div className="w-full md:w-1/2">
+                            <div className="w-full md:w-1/2 m-auto">
 
-                                <div className='md:grid grid-cols-2 gap-2 pr-4'>
+                                <div className='md:grid grid-cols-2 gap-2 md:pr-4'>
                                     <Culture icon={<FaTools />} title="Hardworking"/>
                                     <Culture icon={<FaShieldAlt />} title="Flexible & Understanding"/>
                                     <Culture icon={<FaComment />} title="Open & Transparent"/>
@@ -48,17 +48,17 @@ const About = () => {
                         <p className="font-bold text-gray-800 mb-4 text-xl md:text-2xl">Our Values</p>
                         <p className="text-gray-800 mb-4 block md:w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo labore natus iste vel.</p>
 
-                        <div className="flex justify-between items-center">
-                            <div className="w-1/2">
-                                <img src={img} alt="culture" className='rounded' />
+                        <div className="md:flex justify-between items-center">
+                            <div className="w-full md:w-1/2">
+                                <img src={img} alt="culture" className='rounded hidden md:block' />
                             </div>
-                            <div className="w-1/2">
+                            <div className="w-full md:w-1/2 m-auto">
 
-                                <div className='grid grid-cols-2 gap-2 pl-4'>
-                                    <Culture icon={<FaTools />} />
-                                    <Culture icon={<FaTools />} />
-                                    <Culture icon={<FaTools />} />
-                                    <Culture icon={<FaTools />} />
+                                <div className='md:grid grid-cols-2 gap-2 md:pl-4'>
+                                    <Culture icon={<FaTools />} title="Hello"/>
+                                    <Culture icon={<FaTools />} title="Hello"/>
+                                    <Culture icon={<FaTools />} title="Hello"/>
+                                    <Culture icon={<FaTools />} title="Hello"/>
                                 </div>
                             </div>
 
