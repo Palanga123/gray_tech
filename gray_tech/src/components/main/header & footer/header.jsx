@@ -46,7 +46,7 @@ const Header = () => {
 
     return(
         <>
-            <header id="text" className="w-full fixed shadow-md bg-white">
+            <header id="text" className="w-full fixed shadow-sm bg-white">
                 <div className="hidden md:block w-full bg-[#1352cf]">
                     <div className="w-3/5 md:w-4/5 m-auto bg-transparent">
                         
