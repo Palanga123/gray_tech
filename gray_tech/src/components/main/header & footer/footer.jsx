@@ -1,11 +1,20 @@
-import { FaEnvelope, FaFacebook, FaInstagram, FaPhone, FaTwitter } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
 
     return (
         <>
-            <footer className="bottom-0 text-black w-full mt-auto">                
+            <div className="w-11/12 md:w-4/5 mx-auto">
+                <div className="h-10 md:h-14 fixed right-4 bottom-6 w-full flex flex-row-reverse">
+                    <div className="w-10 md:w-14 h-10 md:h-14 rounded-full bg-green-500 hover:bg-green-600 hover:w-44 duration-700">
+                        <button className="h-full w-full text-white bg-transparent px-3 md:px-[18px] rounded-full md:text-xl"><FaWhatsapp/></button>
+                    </div>
+                </div>  
+            </div>
+            
+            <footer className="bottom-0 text-black w-full">    
+                          
                 <div className="w-11/12 md:w-4/5 m-auto">
                     {/* <hr className="border-gray-400"/> */}
                     <div className="w-full items-center flex md:flex-row flex-col-reverse justify-between py-6">
