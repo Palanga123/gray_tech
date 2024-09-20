@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="w-11/12 md:w-4/5 mx-auto">
                 <div className="h-10 md:h-14 fixed right-4 bottom-6 w-full flex flex-row-reverse">
                     <a href="https://wa.me/+260765735764?text=Hi,%20can%20I%20find%20out%20more%20about%20clearing%20and%20forwarding?">
-                        <div className="w-10 md:w-14 h-10 md:h-14 rounded-full bg-green-500 hover:bg-green-600 duration-500" onClick={Location.href="https://facebook.com"}>
+                        <div className="w-10 md:w-14 h-10 md:h-14 rounded-full bg-green-500 hover:bg-green-600 duration-500">
                             <button className="h-full w-full text-white bg-transparent px-3 md:px-[18px] rounded-full md:text-xl"><FaWhatsapp/></button>
                         </div>
                    </a>

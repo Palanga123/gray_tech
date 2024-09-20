@@ -4,6 +4,7 @@ import Footer from './components/main/header & footer/footer.jsx';
 import Main from './components/main/main/content.jsx';
 import Contact from './components/main/contact/form.jsx';
 import About from './components/main/about/about.jsx';
+import Services from './components/main/main/services.jsx';
 
 
 
@@ -18,6 +19,7 @@ function App()
                 <div className="w-full">
                     <Routes>
                         <Route path="/" element={<Main/>}/>
+                        <Route path="/services" element={<Services/>}/>
                         <Route path="/contact" element={<Contact/>}/>
                         <Route path="/about" element={<About/>}/>
                     </Routes>
@@ -25,6 +27,7 @@ function App()
  
                 <Footer/>
             </BrowserRouter>
+            <Route path="/contact" element={<Contact/>}/>
         </>
 
     );
