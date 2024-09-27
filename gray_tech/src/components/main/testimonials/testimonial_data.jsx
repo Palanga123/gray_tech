@@ -1,16 +1,18 @@
-function Testimonials(props)
-{
+function Testimonials(props) {
     return (
         <>
-            <div id="profile" className="my-4 m-auto w-full md:w-60 lg:w-72 xl:w-80 rounded-md py-8 bg-sky-200 p-4 shadow-md">
-                <div className="mb-6 text-center">
-                    <img src={props.image} class="w-24 h-24 m-auto rounded-full absolte" alt={props.alttext} />
+            <div id="profile" className="text-sm my-4 m-auto w-full xl:w-80 border rounded-md p-4 bg-gray-100">
+                <div className="mb-6 flex items-center">
+                    <img src={props.image} class="w-16 h-16 rounded-full" alt={props.alttext} />
+                    <div className="pl-2">
+                        <p className="font-bold text-gray-800 ">{props.name}</p>
+                        <p className="text-xs text-gray-700">{props.position}</p>
+                    </div>
                 </div>
-                <p class="text-center text-gray-600 px-4 pb-4">
+                <p class="text-left text-[14px] text-gray-600 px-2 pb-4">
                     {props.text}
                 </p>
-                <p className="text-center font-bold text-gray-800 ">{ props.name }</p>
-                <p className="text-center ">{ props.position }</p>
+
             </div>
         </>
     )

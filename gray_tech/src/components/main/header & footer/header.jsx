@@ -11,8 +11,6 @@ const Header = () => {
         return setShowContent(!showContent);
     };
 
-    let bars = <FaBars/>
-    let x = <FaX/>
     
     const socials = [
         {id:1, name:<FaFacebook/>, href:"#"}, 
@@ -71,7 +69,7 @@ const Header = () => {
                             </div>
                             <div className="block md:hidden">
                                 <button className="p-3 border border-gray-500 rounded text-gray-500" onClick={() => toggleContent()}>
-                                    {!showContent ? bars : x}
+                                    {!showContent ? <FaBars/>: <FaX/>}
                                 </button>
                             </div>
                     </div>
