@@ -25,17 +25,17 @@ function Contact()
                         <p>Off Litunga road</p>                        
                     </div>
                     <div className="rounded-md h-[350px] w-full md:w-[350px] bg-gray-400 overflow-hidden">
-                        {/* <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} className="h-full w-full">
+                        <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} className="h-full w-full">
                             <TileLayer
                                 attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                                 url = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                             />
-                            <Marker position={[51.505, -0.09]}>
+                            {/* <Marker position={[51.505, -0.09]}>
                                 <Popup>
                                     A pretty CSS# popip. <br/> Easily customizable
                                 </Popup>
-                            </Marker>
-                        </MapContainer> */}
+                            </Marker> */}
+                        </MapContainer>
                     </div>
                 </div>
                 {/* <div className=""></div> */}

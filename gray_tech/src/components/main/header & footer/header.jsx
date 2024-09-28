@@ -14,7 +14,7 @@ const Header = () => {
     
     const socials = [
         {id:1, name:<FaFacebook/>, href:"#"}, 
-        {id:2, name:<FaLinkedin/>, href:"#"}, 
+        {id:2, name:<FaLinkedin/>, href:"https://linkedin.com/company/zamola-logistics-limitted"}, 
         {id:3, name:<FaEnvelope/>, href:"#"}, 
     ]
 
