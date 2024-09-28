@@ -1,4 +1,4 @@
-import { FaWhatsapp, FaEnvelope, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
@@ -33,8 +33,7 @@ const Footer = () => {
 
                             <div class="flex h-10 mb-2 text-center w-full mt-10">
                                 <button className="h-10 w-10 border rounded-full mr-2 bg-gray-300" onClick="location.href='https://www.facebook.com/profile.php?id=100092004857675'"><FaFacebook className="m-auto" /></button>
-                                <button className="h-10 w-10 border rounded-full mx-2 bg-gray-300" onClick="location.href='https://twitter.com/Geocademy_'"><FaTwitter className="m-auto" /></button>
-                                <button className="h-10 w-10 border rounded-full mx-2 bg-gray-300" onClick="location.href='https://instagram.com/geocademyedu'"><FaInstagram className="m-auto" /></button>
+                                <button className="h-10 w-10 border rounded-full mx-2 bg-gray-300" onClick="location.href='https://instagram.com/geocademyedu'"><FaLinkedin className="m-auto" /></button>
                                 <button className="h-10 w-10 border rounded-full mx-2 bg-gray-300" onClick="location.href='https://instagram.com/geocademyedu'"><FaEnvelope className="m-auto" /></button>
                             </div>
                         </div>

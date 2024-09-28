@@ -34,11 +34,11 @@ function List()
     return (
         <>
         
-        <div className="my-20 m-auto md:w-4/5 w-11/12">
+        <div className="my-32 m-auto md:w-4/5 w-11/12">
             
             <div className="text-center my-10">
-                <p className="text-gray-800 font-bold text-3xl">Testimonials</p>
-                <p className="text-[#3572ef] font-semibold">Reviews from those we have served.</p>
+                <p className="text-gray-800 font-bold text-2xl">Testimonials</p>
+                <p className="text-[#3572ef] text-sm font-semibold">Reviews from those we have served.</p>
             </div>
 
             <div className="w-full sm:grid grid-cols-2 md:grid-cols-3 gap-2 ">

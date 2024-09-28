@@ -29,7 +29,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-                <div className="my-20">
+                {/* <div className="my-20">
                     <p className="text-center text-[18px] md:text-3xl font-bold  text-gray-900 pb-10">Quick Actions</p>
 
                     <div className="md:grid grid-cols-3 gap-3 md:justify-between">
@@ -61,7 +61,7 @@ const Main = () => {
 
 
                     </div>
-                </div>
+                </div> */}
 
             </section>
 

@@ -6,8 +6,8 @@ function Hero()
             <main id="main" className="" > 
                 <div style={{ backgroundColor: 'rgba(0,0,0,0.3)' }} >
 
-                    <div className="w-4/5 m-auto py-[100px]" >
-                        <h1 className="text-gray-200 md:text-gray-300 text-3xl md:text-5xl">Lorem ipsum <span class="text-sky-500 md:text-blue-700 font-black">amet</span></h1><br /><br />
+                    <div className="w-11/12 md:w-4/5 m-auto py-[100px]" >
+                        <h1 className="text-gray-200 md:text-gray-300 text-3xl md:text-5xl">Lorem ipsum <span class="text-sky-500 md:text-blue-700 font-black">amet</span></h1><br />
                         <p className="text-sm md:text-base text-gray-100 md:w-96 font-semibold">
                             Lorem ipsum dolor sit amet consectetur
                             adipisicing elit. Perspiciatis natus

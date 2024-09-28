@@ -1,4 +1,4 @@
-import { FaBars, FaFacebook, FaLinkedin, FaInstagram, FaTwitter} from "react-icons/fa";
+import { FaBars, FaFacebook, FaLinkedin, FaEnvelope} from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -15,8 +15,7 @@ const Header = () => {
     const socials = [
         {id:1, name:<FaFacebook/>, href:"#"}, 
         {id:2, name:<FaLinkedin/>, href:"#"}, 
-        {id:4, name:<FaInstagram/>, href:"#"}, 
-        {id:4, name:<FaTwitter/>, href:"#"},
+        {id:3, name:<FaEnvelope/>, href:"#"}, 
     ]
 
     const links = [

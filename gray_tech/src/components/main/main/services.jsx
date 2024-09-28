@@ -5,7 +5,7 @@ const Services = () => {
     return (
         <>
             <div className='h-36'></div>
-            <p className='font-bold text-[#1352cf] text-3xl my-10 text-center'>Our Services</p>
+            <p className='font-bold text-gray-800 text-2xl my-10 text-center'>Our Services</p>
             
             
             <div className='w-11/12 md:w-4/5 m-auto sm:grid grid-cols-2 gap-5'>
