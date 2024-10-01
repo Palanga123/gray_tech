@@ -9,7 +9,7 @@ const Culture = (props) => {
                 </div>
                 <div className='text-left'>
                     <p className='font-bold mb-3'>{props.title}</p>
-                    <p className='text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quam.</p>
+                    <p className='text-sm'>{props.text}</p>
                 </div>
             </div>
         </>

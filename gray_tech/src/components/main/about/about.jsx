@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                     <div className="w-full mx-auto py-16">
                         <p className="font-bold text-[#3572ef] mb-4 text-xl md:text-2xl">Our culture</p>
-                        <p className="text-gray-800 mb-4 block md:w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo labore natus iste vel.</p>
+                        <p className="text-gray-800 mb-4 block md:w-1/2">This is who we are, our culture is how we believe our work must be carried out.</p>
                         <div className="flex flex-col md:flex-row-reverse justify-between items-center">
 
                             <div className="w-full md:w-1/2 py-3">
@@ -45,17 +45,17 @@ const About = () => {
                             <div className="w-full md:w-1/2 m-auto">
 
                                 <div className='md:grid grid-cols-2 gap-2 md:pr-4'>
-                                    <Culture icon={<FaTools />} title="Hardworking" />
-                                    <Culture icon={<FaShieldAlt />} title="Flexible & Understanding" />
-                                    <Culture icon={<FaComment />} title="Open & Transparent" />
-                                    <Culture icon={<FaChartSimple />} title="Growth & Development" />
+                                    <Culture icon={<FaTools />} title="Hardworking" text="We are dedicated and persistent, always striving for excellence in every task."/>
+                                    <Culture icon={<FaShieldAlt />} title="Flexible & Understanding" text="We value work-life balance and support flexibility to accommodate personal needs."/>
+                                    <Culture icon={<FaComment />} title="Open & Transparent" text="We foster trust through open communication and honest feedback."/>
+                                    <Culture icon={<FaChartSimple />} title="Growth & Development" text="We invest in continuous learning and career advancement for our team."/>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div className="w-full mx-auto py-16">
                         <p className="font-bold text-[#3572ef] mb-4 text-xl md:text-2xl">Our Values</p>
-                        <p className="text-gray-800 mb-4 block md:w-1/2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nemo labore natus iste vel.</p>
+                        <p className="text-gray-800 mb-4 block md:w-1/2">These are the fundamental principles guiding our business decisions, actions, and company behaviors.</p>
 
                         <div className="flex flex-col md:flex-row justify-between items-center">
                             <div className="w-full md:w-1/2 py-3">
@@ -64,10 +64,10 @@ const About = () => {
                             <div className="w-full md:w-1/2 m-auto">
 
                                 <div className='md:grid grid-cols-2 gap-2 md:pl-4'>
-                                    <Culture icon={<FaHandshakeSimple />} title="Teamwork" />
-                                    <Culture icon={<FaShield />} title="Trustworthy" />
-                                    <Culture icon={<FaCog />} title="Innovation" />
-                                    <Culture icon={<FaSearch />} title="Integrity" />
+                                    <Culture icon={<FaHandshakeSimple />} title="Teamwork" text="We collaborate effectively, valuing each team member’s contributions and strengths."/>
+                                    <Culture icon={<FaShield />} title="Trustworthy" text="We build trust through reliability, honesty, and consistent delivery of promises."/>
+                                    <Culture icon={<FaCog />} title="Innovation" text="We embrace creativity and continuously seek new, better solutions."/>
+                                    <Culture icon={<FaSearch />} title="Integrity" text="We uphold strong ethical standards and always act with honesty and fairness."/>
                                 </div>
                             </div>
 
