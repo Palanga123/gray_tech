@@ -1,0 +1,6 @@
+#bg, #bs, #bt{
+    background-image: url("../../images/truck.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
