@@ -15,9 +15,11 @@ const Services = () => {
                     <div className="w-full py-4">
                         <p className="text-sm md:text-base">We ensuring your goods pass through customs smoothly and efficiently. Benefit from our clearance services which are speedy and effecient. Don't worry about clearing your cargo, leave it to us.</p>
 
+                        <a href="https://wa.me/+260965450823?text=Hi,%20can%20I%20find%20out%20more%20about%20clearing?">
                         <div className="mt-8">
                             <button className="text-[14px] px-4 py-3 text-white rounded bg-[#1352cf] font-semibold hover:scale-105 hover:duration-500 duration-500">Get Quote</button>
                         </div>
+                        </a>
                     </div>
                 </div>
                 <div className="my-5 w-full bg-gray-50 border border-gray-200 rounded overflow-hidden p-8">
@@ -25,10 +27,11 @@ const Services = () => {
                     <p className="text-[16px] md:text-[20px] font-bold py-2 text-[#1352cf]">Cargo Forwarding</p>
                     <div className="w-full py-4">
                         <p className="text-sm md:text-base">We coordinating the shipment of your goods from origin to destination efficiently so that you do not worry about a thing. Don't worry about forwarding your cargo, leave it to us.</p>
-
+                        <a href="https://wa.me/+260965450823?text=Hi,%20can%20I%20find%20out%20more%20about%20forwarding?">
                         <div className="mt-8">
                             <button className="text-[14px] px-4 py-3 text-white rounded bg-[#1352cf] font-semibold hover:scale-105 hover:duration-500 duration-500">Get Quote</button>
                         </div>
+                        </a>
                     </div>
                 </div>
 
