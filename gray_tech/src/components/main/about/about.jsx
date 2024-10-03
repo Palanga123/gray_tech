@@ -24,9 +24,23 @@ const About = () => {
                             <div className=''>
                                 <div className='w-full md:w-4/5 m-auto py-10'>
                                     <p>
-                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nesciunt magni nihil maiores odit amet non quibusdam ducimus magnam optio, sit placeat, quidem itaque nulla numquam autem officiis excepturi eius dolores. Velit eligendi eveniet temporibus deleniti facere! Delectus quos recusandae enim laudantium natus ea. Optio nisi quas voluptates officiis est! Temporibus tenetur perspiciatis at autem harum molestias facilis qui accusantium.
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis saepe fugit, doloremque libero deserunt quo, a ea accusamus perferendis provident facere magni, quidem nobis aliquam aut inventore magnam quasi! Perspiciatis iste obcaecati cupiditate cum autem necessitatibus nemo molestias, rerum vitae consectetur. Corporis quidem odit optio sed, provident totam impedit sequi.
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, doloremque nihil natus ut praesentium, laboriosam eveniet voluptatibus ipsum nesciunt quia perspiciatis porro sequi fugit id fuga doloribus et, cum in iste est eius. Quisquam eaque, nihil cumque, a neque quod quas temporibus distinctio explicabo asperiores repellendus dignissimos itaque. Quas, nemo.
+                                        Zamola Logistics Limited is a proudly Zambian-owned and managed Logistic Company 
+                                        headquarterd in Livingstone, Southern Zambia and operates accross four other locations. 
+                                        The company was formally incorporated in the Republic of Zambia on October 6, 2009 and 
+                                        we remain committed to delivering exceptional logistics solutions accross the region.
+
+                                        <br /><br />
+
+                                        Our mission is to provide quality services that empowers our clients smooth 
+                                        operations of business. We are committed to use clearing and forwarding to sensitize 
+                                        the public in the paying of taxes and provide employment to our country men. 
+
+                                        <br /><br />
+
+                                        Our services include comprehensive customs clearance, from final clearances to transit 
+                                        declarations, all handled on behalf of our clients. While continuing to expand our capabilities 
+                                        in in-transit clearances, we currently collaborate with other industry leaders through inter-agency agreements, 
+                                        ensuring smooth and efficient customs procedures accross all modes.
                                     </p>
                                 </div>
                                

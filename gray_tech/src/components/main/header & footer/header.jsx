@@ -59,7 +59,7 @@ const Header = () => {
                                <NavLink to="/">
                                     <div className="text-justify">
                                         <p className="font-semibold text-[14px] sm:text-lg lg:text-2xl text-[#1352cf]">Zamola <span className="text-gray-600">Logistics Ltd.</span></p>
-                                        <p className="text-[8px] md:text-[10px]">Clearing & Forwarding</p>
+                                        <p className="text-[8px] md:text-[10px]">Clearing & Forwarding Agency</p>
                                     </div>
                                </NavLink>
                             </div>    

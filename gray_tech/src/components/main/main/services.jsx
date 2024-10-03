@@ -5,10 +5,10 @@ const Services = () => {
     return (
         <>
             <div className='h-36'></div>
-            <p className='font-bold text-gray-800 text-2xl my-10 text-center'>Our Services</p>
+            <p className='font-bold text-gray-800 text-2xl mt-10 text-center'>Our Services</p>
             
             
-            <div className='w-11/12 md:w-4/5 m-auto sm:grid grid-cols-2 gap-5'>
+            <div className='w-11/12 md:w-4/5 m-auto sm:grid grid-cols-2 gap-5 my-20'>
                 <div className="my-5 w-full bg-gray-50 border border-gray-200 rounded overflow-hidden p-8">
 
                     <p className="text-[16px] md:text-[20px] font-bold py-2 text-[#1352cf]">Cargo Clearance.</p>

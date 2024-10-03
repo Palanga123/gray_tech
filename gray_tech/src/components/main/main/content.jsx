@@ -2,7 +2,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import Typing from '../../images/typing.jpg';
 import Truck from '../../images/truck.jpeg';
 import Hero from "./intro";
-import List from "../testimonials/testimonials";
+// import List from "../testimonials/testimonials";
 import './content.css';
 
 
@@ -36,7 +36,7 @@ const Main = () => {
 
             </section>
 
-            <section className="w-11/12 md:w-4/5 m-auto mt-10">
+            <section className="w-11/12 md:w-4/5 m-auto my-20">
                 <div className="flex flex-col md:flex-row items-center mb-14">
                     <div className="w-full h-80  md:w-1/2  rounded-md" id="bg"></div>
                     <div className="w-full md:w-1/2 py-4 md:px-6 ">
@@ -66,7 +66,8 @@ const Main = () => {
             
 
             {/* Testimonial page */}
-            <List/>
+            {/* <List/> */}
+            <div className="mb-32"></div>
         </>
     );
 }
