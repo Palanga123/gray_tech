@@ -87,7 +87,7 @@ const Footer = () => {
                     </div>
                     {/* <hr className="border-gray-400"/> */}
                 </div>
-                <p className="text-center font-semibold text-sm text-white py-4 bg-[#1352cf]">&copy; {new Date().getFullYear()} All Rights Reserved</p>
+                <p className="text-center font-semibold text-sm text-white py-4 bg-[#1352cf]">&copy; {new Date().getFullYear()} All Rights Reserved. Designed by <a href="https://palangageorgenkobi.onrender.com" className="underline underline-offset-4">Palanga George Nkobi</a></p>
             </footer>
         </>
     );
